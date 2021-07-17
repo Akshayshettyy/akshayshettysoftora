@@ -43,7 +43,7 @@ color: white;
   margin-left: auto;
 }
 
-@media (max-width:992px) {
+@media (min-width:531px) {
 
   .welcome {
     order:0;
@@ -62,7 +62,7 @@ color: white;
 
 .customerbody {
 	padding:4rem 26rem;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	text-align:center;
 
 }

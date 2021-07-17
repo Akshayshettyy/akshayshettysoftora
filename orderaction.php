@@ -68,18 +68,20 @@ include "user.php";
   <!-- Icons -->
   <script src="https://kit.fontawesome.com/67ab68277d.js" crossorigin="anonymous"></script>
   <style>
-  .welcome {
-   order:0;
- }
- .navbar-toggler {
-   order:1;
-   margin-left:15px;
-   margin-right:0;
- }
+ @media (min-width:531px) {
 
- .navbar > .collapse {
-   margin-top:2rem;
- }
+  .welcome {
+    order:0;
+  }
+  .navbar-toggler {
+    order:1;
+    margin-left:15px;
+    margin-right:0;
+  }
+
+  .navbar > .collapse {
+    margin-top:2rem;
+  }
 
 }
 </style>

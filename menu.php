@@ -55,6 +55,7 @@
 
 
 <style>
+
 .video-background-holder {
   position: relative;
   background-color: white;
@@ -187,25 +188,28 @@
 .closebtn:hover {
   color: grey;
 }
-.welcome {
-   order:0;
- }
- .navbar-toggler {
-   order:1;
-   margin-left:15px;
-   margin-right:0;
- }
 
- .navbar > .collapse {
-   margin-top:2rem;
- }
-
-}
 .welcome {
   color: white;
   font-size: 1rem;
   padding:1rem;
   margin-left: auto;
+}
+@media (min-width:531px) {
+
+  .welcome {
+    order:0;
+  }
+  .navbar-toggler {
+    order:1;
+    margin-left:15px;
+    margin-right:0;
+  }
+
+  .navbar > .collapse {
+    margin-top:2rem;
+  }
+
 }
 </style>
 
