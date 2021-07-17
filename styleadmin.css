@@ -1,0 +1,99 @@
+
+.body {
+font-family: 'Roboto', sans-serif;
+}
+
+.navbar-dark {
+  background-color:#bdb76b;
+  font-family: 'Roboto', sans-serif;
+color: white;
+  padding: 0.5rem 1rem;
+
+}
+
+.nav-item {
+  color:white;
+  font-size: 1.5rem;
+  padding: 0rem 1rem;
+
+
+}
+.navbar-brand {
+  font-size:2rem;
+  font-weight: bold;
+  color:white;
+}
+.foodie {
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 2.5rem;
+  color:	#008000 ;
+}
+
+.hood {
+  font-family: 'Otomanopee One', sans-serif;
+  font-size: 2rem;
+  color: 	#008000;
+}
+
+
+.welcome {
+  color: white;
+  font-size: 1rem;
+  padding:1rem;
+  margin-left: auto;
+}
+
+@media (max-width:992px) {
+
+  .welcome {
+    order:0;
+  }
+  .navbar-toggler {
+    order:1;
+    margin-left:15px;
+    margin-right:0;
+  }
+
+  .navbar > .collapse {
+    margin-top:2rem;
+  }
+
+}
+
+.customerbody {
+	padding:4rem 26rem;
+	font-family: 'Lato', sans-serif;
+	text-align:center;
+
+}
+
+table {
+	background-color: 	#eee8aa;
+
+}
+
+.table-bordered {
+  border:3px solid 	#db7093 ;
+}
+
+.tr {
+	padding:1rem;
+	font-weight: bold;
+	font-size:1.5rem;
+}
+
+.td {
+  font-weight: bold;
+}
+
+@media screen and (max-width:1200px) {
+	.customerbody {
+		padding:8rem 5rem;
+	}
+}
+
+@media screen and (max-width:600px) {
+	.customerbody {
+		padding:8rem 2rem;
+	}
+}
